@@ -7,7 +7,7 @@ public class NumberGuessingGame {
 
         System.out.println("Welcome to the Number Guessing Game!");
         System.out.println("Try to guess the number I'm thinking of between 0 and 99.");
-        System.out.println("Good luck! you have 8 guesses to find the secret number.");
+        System.out.println("Good luck! you have 87 guesses to find the secret number.");
 
         System.out.println("----------------------------------------------");
         Scanner scanner = new Scanner(System.in);
