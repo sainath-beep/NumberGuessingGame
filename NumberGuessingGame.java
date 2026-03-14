@@ -11,13 +11,13 @@ public class NumberGuessingGame {
 
         System.out.println("----------------------------------------------");
         Scanner scanner = new Scanner(System.in);
+        
         int geusses = 1;
         int userNumber;
         do{
             System.out.print("Enter a number between 0 and 99:");
-
             userNumber=scanner.nextInt();
-
+            
             if(geusses==7){
                 System.out.println("Sorry, you've used all your guesses. The secret number was: " + secretNumber);
                 break;
@@ -32,7 +32,6 @@ public class NumberGuessingGame {
                 System.out.println("Congratulations! You've guessed the secretNumber.");
             }
             geusses++;
-
         }while(userNumber!=secretNumber);
         scanner.close();
     }
